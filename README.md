@@ -104,7 +104,7 @@ const exclaim = x => x + '!!!';
 
 const angry = compose(toUpperCase, exclaim);
 
-angry('stop'); // 'STOP!!!
+angry('stop'); // "STOP!!!"
 ```
 
 ### curry
@@ -263,7 +263,7 @@ const object = {
   label: 'custom label',
 };
 
-prop('label', object); // custom label
+prop('label', object); // "custom label"
 ```
 
 ### sort
